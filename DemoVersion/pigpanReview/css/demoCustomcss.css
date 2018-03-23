@@ -1,0 +1,47 @@
+.bgfood{
+    background-image: url("../image/bgimg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+.btn-circle.btn-xl {
+    width: 250px;
+    height: 250px;
+    font-size: 40px;
+    line-height: 1.33;
+    border-radius: 125px;
+    margin: 20px;
+}
+.btn-food{
+    color: #cc8800;
+    background-color: #ffffcc;
+    border-color: #ffcc66;
+}.btn-drink{
+    color: #f9e6ff;
+    background-color: #cc99ff;
+    border-color: #cc33ff;
+}.btn-dessert{
+    color: #ffccff;
+    background-color: #ff9999;
+    border-color: #ff66ff;
+}
