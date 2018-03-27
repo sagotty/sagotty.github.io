@@ -1,0 +1,69 @@
+
+body{
+    background: whitesmoke;
+}
+.form-control:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffc107;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 204, 0, 0.25);
+}
+.bg-header-menu{
+    background-image: url("../image/firechicken.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 0;
+
+
+}
+.jumbotron {
+    padding: 0 0;
+    margin-bottom: 0;
+    /*background-color: #e9ecef;*/
+    border-radius: 0;
+}
+.breadcrumb {
+    margin-bottom: 0;
+    background-color: rgb(242, 242, 255);
+}
+.footerlast{
+    color: #b9bbbe;
+    background: #262626;
+    padding-top: 0.5rem;
+}
+.footer {
+    color: #f8f9fa;
+    background: #333333;
+    padding: 0.5rem 0 0 0;
+}
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.mapmap{
+    padding-bottom: 5rem;
+
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 50px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #ffc107; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px 20px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #e0a800; /* Add a dark-grey background on hover */
+}
