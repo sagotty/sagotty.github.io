@@ -1,0 +1,27 @@
+.bg-header-menu-food-aiyama{
+     background-image: url("../image/food/firechicken.jpg"); /*chane url   and class menu*/
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 5rem 0;
+
+
+ }
+.bg-header-menu-drink-iceCafe{
+    background-image: url("../image/drink/iceCafe-bgHeader.jpg"); /*chane url   and class menu*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 0;
+
+
+}
+.bg-header-menu-dessert-homeSweet{
+    background-image: url("../image/dessert/homeSweets-bgHeader.jpg"); /*chane url   and class menu*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 0;
+
+
+}

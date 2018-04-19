@@ -1,12 +1,10 @@
 .bgfood{
-    background-image: url("../image/bgimg.jpg");
+    background-image: url("../image/index/bgimg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-
-
 .btn-circle {
     width: 30px;
     height: 30px;

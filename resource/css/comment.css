@@ -1,0 +1,76 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.comentBox{
+    padding: 1%;
+    width: 96%;
+    border: 1px solid #000;
+    background: #f0f0f0;
+    margin-bottom: 10px;
+}
+.leftPanelImg{
+    width:10%;
+    float: left;
+}
+.leftPanelImg img{
+    border-radius:100% ;
+}
+.rightPanel{
+    width:85% ;
+    float: left;
+    margin-left: 1%;
+}
+.clear{
+    clear: both;
+}
+.form{
+    padding: 10px;
+    border: 1px solid #000000;
+    margin-bottom: 1px;
+    text-align: center;
+}
+.form input[type="text"],.form input[type="date"],.form textarea{
+    border: 1px solid #000000;
+    padding: 2px;
+    width: 300px;
+}
+/****** Style Star Rating Widget *****/
+.getRating {
+    border: none;
+    float: left;
+}
+
+.getRating > input { display: none; }
+.getRating > label:before {
+    margin: 0px;
+    font-size: 1.25em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+
+.getRating > .half:before {
+    content: "\f089";
+    position: absolute;
+}
+
+.getRating > label {
+    color: #ddd;
+    float:right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.getRating > input:checked ~ label, /* show gold star when clicked */
+.getRating:not(:checked) > label:hover, /* hover current star */
+.getRating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.getRating > input:checked + label:hover, /* hover current star when changing rating */
+.getRating > input:checked ~ label:hover,
+.getRating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.getRating > input:checked ~ label:hover ~ label { color: #FFED85;  }
