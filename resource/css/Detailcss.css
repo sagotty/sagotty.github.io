@@ -5,7 +5,10 @@ body{
 .rowpt{
     padding-top: 3.5rem;
 }
-
+.nav-Brand{
+    width: 30px;
+    padding: 0 0 0 0 ;
+}
 .form-control:focus{
     color: #495057;
     background-color: #fff;
