@@ -1,8 +1,10 @@
 .bgfood{
     background-image: url("../image/index/bgimg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
     background-size: cover;
+    background-color: #000000;
+    background-repeat: no-repeat;
 
 }
 .btn-circle {
@@ -35,11 +37,24 @@
     background-color: #ffffcc;
     border-color: #ffcc66;
 }.btn-drink{
-    color: #f9e6ff;
-    background-color: #cc99ff;
-    border-color: #cc33ff;
+    color: #003366;
+    background-color: #4da6ff;
+    border-color: #0066cc;
 }.btn-dessert{
-    color: #ffccff;
-    background-color: #ff9999;
-    border-color: #ff66ff;
+    color: #1f1f14;
+    background-color: #999966;
+    border-color: #5c5c3d;
 }
+.btn-food:hover{
+    color: #cc8800;
+    background-color: #ffcc66;
+    border-color: #ffcc66;
+}.btn-drink:hover{
+     color: #003366;
+     background-color: #0066cc;
+     border-color: #0066cc;
+ }.btn-dessert:hover{
+      color: #1f1f14;
+      background-color: #5c5c3d;
+      border-color: #5c5c3d;
+  }
