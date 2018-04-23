@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/bgHeaderMenu.css">
 
 <body>
-<p id="thisPage" hidden>ชJames Cheese</p> <!--Name Page--><!--เปลี่ยนชื่อ-->
+<p id="thisPage" hidden>James Cheese</p> <!--Name Page--><!--เปลี่ยนชื่อ-->
 <p id="totalStarThisPage" data-ttstar="0"  hidden>4</p> <!--Total Star--><!--เปลี่ยนดาว-->
 <!--navbar-->
 <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-dark ">
@@ -37,8 +37,9 @@
                 <a class="nav-link" href="../../dessert.html">Dissert</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2 " type="search" placeholder="ค้นหาเลย!!"/>
+        <form action="http://www.google.com/search" method="get" class="form-inline my-2 my-lg-0" onSubmit="Gsitesearch(this)">
+            <input name="q" type="hidden" />
+            <input name = "qfront" class="form-control mr-sm-2 " type="search" placeholder="ค้นหาเลย!!"/>
             <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
@@ -269,5 +270,6 @@
 <script src="../js/goToTop.js"></script>
 <script src="../js/comment.js" id="commentjs"></script>
 <script src="../js/showStar.js"></script>
+<script src="../js/googleSearch.js"></script>
 </body>
 </html>

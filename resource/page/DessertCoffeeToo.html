@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-    <title>PPR : Home Sweets</title>
+    <title>PPR : CoffeeToo</title>
     <link rel="stylesheet" href="../css/Detailcss.css">
     <link rel="stylesheet" href="../css/comment.css">
     <link rel="stylesheet" href="../css/bgHeaderMenu.css">
 
 <body>
 <p id="thisPage" hidden>CoffeeToo</p> <!--Name Page-->
-<p id="totalStarThisPage" data-ttstar="0"  hidden>1</p> <!--Total Star-->
+<p id="totalStarThisPage" data-ttstar="0"  hidden>3.5</p> <!--Total Star-->
 <!--navbar-->
 <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-dark ">
     <a id= "" class="navbar-brand text-warning mb-lg-2 nav-Brand" href="../../index.html"><img src="../../resource/image/logo.png" width="100%"></a>
@@ -37,8 +37,9 @@
                 <a class="nav-link" href="../../dessert.html">Dissert</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2 " type="search" placeholder="ค้นหาเลย!!"/>
+        <form action="http://www.google.com/search" method="get" class="form-inline my-2 my-lg-0" onSubmit="Gsitesearch(this)">
+            <input name="q" type="hidden" />
+            <input name = "qfront" class="form-control mr-sm-2 " type="search" placeholder="ค้นหาเลย!!"/>
             <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
@@ -49,7 +50,7 @@
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="../../index.html" class="text-warning">Home</a></li>
         <li class="breadcrumb-item"><a href="../../dessert.html" class="text-warning">dessert</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Home Sweets</li>
+        <li class="breadcrumb-item active" aria-current="page">CoffeeToo</li>
     </ol>
 </nav>
 <!--contant header-->
@@ -83,7 +84,7 @@
                                 <h5>เมนูเเนะนำ</h5>
                                 <p>คัฟเค้ก,ไอศกรีม</p>
                                 <h5>ราคา</h5>
-                                <p>฿ : ต่ำกว่า 100  ราย </p>
+                                <p>฿ : ต่ำกว่า 100  บาท </p>
                                 <h5>เรตติ้ง</h5>
                                 <div class="">
                                     <span id ="starHead" class="stars text-warning" data-rating="5" data-max-stars="5" ></span>
@@ -270,5 +271,6 @@
 <script src="../js/goToTop.js"></script>
 <script src="../js/comment.js" id="commentjs"></script>
 <script src="../js/showStar.js"></script>
+<script src="../js/googleSearch.js"></script>
 </body>
 </html>
