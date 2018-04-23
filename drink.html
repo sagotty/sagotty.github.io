@@ -39,8 +39,9 @@
                 <a class="nav-link" href="./dessert.html">Dissert</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2 " type="search" placeholder="ค้นหาเลย!!"/>
+        <form action="http://www.google.com/search" method="get" class="form-inline my-2 my-lg-0" onSubmit="Gsitesearch(this)">
+            <input name="q" type="hidden" />
+            <input name = "qfront" class="form-control mr-sm-2 " type="search" placeholder="ค้นหาเลย!!"/>
             <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
@@ -229,6 +230,6 @@
 <script src="./resource/js/goToTop.js"></script>
 <script src="resource/js/getdataAllpage.js"></script>
 <script src="resource/js/showStarList.js"></script>
-
+<script src="resource/js/googleSearch.js"></script>
 </body>
 </html>
