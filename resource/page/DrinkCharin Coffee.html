@@ -37,8 +37,9 @@
                 <a class="nav-link" href="../../dessert.html">Dissert</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2 " type="search" placeholder="ค้นหาเลย!!"/>
+        <form action="http://www.google.com/search" method="get" class="form-inline my-2 my-lg-0" onSubmit="Gsitesearch(this)">
+            <input name="q" type="hidden" />
+            <input name = "qfront" class="form-control mr-sm-2 " type="search" placeholder="ค้นหาเลย!!"/>
             <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
@@ -130,8 +131,8 @@
                                         <div class="mapmap">
                                             <img src="../image/food/mapside.JPG" alt="Avatar" width="100%" >
                                             <div class="mapoverlay">
-                                                <a  class="mapicon text-white" title="Let's Go!!" href="https://www.google.co.th/maps/dir/''/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99+%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F+%E0%B9%83%E0%B8%99+%E0%B8%A1+%E0%B8%9E%E0%B8%B0%E0%B9%80%E0%B8%A2%E0%B8%B2/@19.032848,99.8587838,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x30d8336958a08f45:0x95e0b79322a5f452!2m2!1d99.9288243!2d19.0328612" target="_blanปผ><!--เปลี่ยนลิงค์-->
-                                                    <i class="fas fa-map"></i>
+                                                <a  class="mapicon text-white" title="Let's Go!!" href="https://www.google.co.th/maps/dir/''/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99+%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F+%E0%B9%83%E0%B8%99+%E0%B8%A1+%E0%B8%9E%E0%B8%B0%E0%B9%80%E0%B8%A2%E0%B8%B2/@19.032848,99.8587838,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x30d8336958a08f45:0x95e0b79322a5f452!2m2!1d99.9288243!2d19.0328612" target="_blank"><!--เปลี่ยนลิงค์-->
+                                                  <i class="fas fa-map"></i>
                                                 <p>Let's Go !!</p>
                                                 </a>
                                             </div>
@@ -269,6 +270,6 @@
 <script src="../js/goToTop.js"></script>
 <script src="../js/comment.js" id="commentjs"></script>
 <script src="../js/showStar.js"></script>
-<script src="resource/js/googleSearch.js"></script>
+<script src="../js/googleSearch.js"></script>
 </body>
 </html>

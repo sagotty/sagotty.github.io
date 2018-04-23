@@ -37,8 +37,9 @@
                 <a class="nav-link" href="../../dessert.html">Dissert</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2 " type="search" placeholder="ค้นหาเลย!!"/>
+        <form action="http://www.google.com/search" method="get" class="form-inline my-2 my-lg-0" onSubmit="Gsitesearch(this)">
+            <input name="q" type="hidden" />
+            <input name = "qfront" class="form-control mr-sm-2 " type="search" placeholder="ค้นหาเลย!!"/>
             <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
@@ -130,7 +131,7 @@
                                         <div class="mapmap">
                                             <img src="../image/food/mapside.JPG" alt="Avatar" width="100%" >
                                             <div class="mapoverlay">
-                                                <a  class="mapicon text-white" title="Let's Go!!" href="https://www.google.co.th/maps/dir/''/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F/data=!4m5!4m4!1m0!1m2!1m1!1s0x30d8336f9eb3156b:0x9aa296d68985b5a1?sa=X&ved=2ahUKEwjjvr6A08vaAhUE5o8KHS-1BWgQ9RcwAHoECAAQCA" target="_blanปผ><!--เปลี่ยนลิงค์-->
+                                                <a  class="mapicon text-white" title="Let's Go!!" href="https://www.google.co.th/maps/dir/''/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F/data=!4m5!4m4!1m0!1m2!1m1!1s0x30d8336f9eb3156b:0x9aa296d68985b5a1?sa=X&ved=2ahUKEwjjvr6A08vaAhUE5o8KHS-1BWgQ9RcwAHoECAAQCA" target="_blank"><!--เปลี่ยนลิงค์-->
                                                     <i class="fas fa-map"></i>
                                                     <p>Let's Go !!</p>
                                                 </a>
@@ -269,6 +270,6 @@
 <script src="../js/goToTop.js"></script>
 <script src="../js/comment.js" id="commentjs"></script>
 <script src="../js/showStar.js"></script>
-<script src="resource/js/googleSearch.js"></script>
+<script src="../js/googleSearch.js"></script>
 </body>
 </html>

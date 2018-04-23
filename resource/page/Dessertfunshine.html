@@ -37,8 +37,9 @@
                 <a class="nav-link" href="../../dessert.html">Dissert</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2 " type="search" placeholder="ค้นหาเลย!!"/>
+        <form action="http://www.google.com/search" method="get" class="form-inline my-2 my-lg-0" onSubmit="Gsitesearch(this)">
+            <input name="q" type="hidden" />
+            <input name = "qfront" class="form-control mr-sm-2 " type="search" placeholder="ค้นหาเลย!!"/>
             <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
         </form>
     </div>
@@ -96,7 +97,7 @@
                             <div class="col">
                                 <hr>
                                 <p>ถึงแม้ว่าจะเข้าสู่หน้าหนาวอย่างเป็นทางการมาตั้งแต่เมื่อเดือนก่อน แต่ร่างกายก็ยังคงสัมผัสได้ถึงอากาศอบอุ่นกึ่งร้อนอยู่ตลอดเวลาเลยใช่ไหมคะ อากาศร้อน ๆ แบบนี้ก็พาลให้อยากกินปังเย็นภูเขาไฟทุกทีเลยค่ะ อย่างหน้าร้อนที่ผ่านมา แซนด์ก็กินแทบจะทุกวันเลยค่ะ ว่าแล้วก็คิดถึงรสชาติหวานเย็นของปังเย็นภูเขาไฟขึ้นมาแล้วแฮะ งั้นเราแวะไปหาของกินดับร้อนที่ “Funshine” กันไหมคะ? </p>
-                                <img src="../image/dessert/desertfunshine1.jpg"" width="100%">
+                                <img src="../image/dessert/desertfunshine1.jpg" width="100%">
                                 <p>ร้าน funshine เป็นร้านเจลลาโต้ เครื่องดื่ม ของทานยามว่าง แต่เจลลาโต้เป็นทอปปิกหลักของร้าน<p>
                                 <img src="../image/dessert/desertfunshine2.jpg" width="100%">
                                 <p>รสชาติมีให้เลือกประมาณ 9-10 รสชาติ โดยวันนี้เลือกที่จะทานรสสตอเบอรี่เชอร์เบท รสกีวี่เชอร์เบท และมะม่วง เมนูนี้ถูกเสริฟมาในถ้วยใสรูปกล้วย ตกแต่งเจลลาโต้ด้วยวิปครีมข้างหน้า โรยเม็ดสายรุ้ง เพิ่มความอร่อยด้วยวุ้นมะพร้าว และเงาะ ราดแจมสตอเบอรี่และแจมบลูเบอร์รี่ ราชาติออกเปรี้ยวๆ หวานๆ พอดี๊พอดี ลงตัวมากๆทางร้านมีโปรโมชั่นด้วยว่า ถ้าหากเราทานเกิน 300 บาททางร้านจะแจกตุ๊กตาให้ 1 ตัว โดยให้เราเลือกเองได้ด้วยน้ำ หรือเครื่องดื่ม ถ้าเราไม่อยากเสียเงินเพิ่ม เราก็ทานน้ำดื่มฟรีที่ทางร้านจัดไว้ให้เราบริการตนเองได้</p>
@@ -270,6 +271,6 @@
 <script src="../js/goToTop.js"></script>
 <script src="../js/comment.js" id="commentjs"></script>
 <script src="../js/showStar.js"></script>
-<script src="resource/js/googleSearch.js"></script>
+<script src="../js/googleSearch.js"></script>
 </body>
 </html>
